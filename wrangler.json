@@ -1,0 +1,23 @@
+{
+  "compatibility_date": "2024-11-01",
+  "main": "src/index.ts",
+  "name": "soft-hill-1d2c",
+  "upload_source_maps": true,
+  "kv_namespaces": [
+    {
+      "binding": "AUTH_STORAGE",
+      "id": "be43d58916de4be19402a2adb8303d6a"
+    }
+  ],
+  "d1_databases": [
+    {
+      "binding": "AUTH_DB",
+      "database_name": "crimson-flower-4755-d1",
+      "database_id": "0253fd1f-0c7b-4edd-8aa0-8cd907a63334"
+    }
+  ],
+  "observability": {
+    "enabled": true
+  },
+  "compatibility_flags": ["nodejs_compat"]
+}
